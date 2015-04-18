@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Side by side comparison.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	By automatically remembering my changes and allowing me to easily revert back from any failed code tests.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+	Pros:
+
+		1. You can commit when ready; when you've got all of your idea down as you had intended to.
+
+		2. You can easily jump back and forth to/from specific features that you may want to remove or copy.
+
+	Cons:
+
+		1. You may forget to commit after writing lots of code.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	In case your new feature is spread across multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	First run this...
+
+		git log
+
+		Then, using the first and second ID hashes, run this...
+
+		git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+	
+	I think the third/last line in this means that there were -4 and +4 lines removed/added...
+	
+		--- a/game.js
+		+++ b/game.js
+		@@ -4,9 +4,9 @@
+
+	If not, this will give the lines removed/added instead...
+
+		git diff --numstat f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+How might using version control make you more confident to make changes that could break something?
+
+	By protecting a backup copy that I can easily revert to.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Programming?
