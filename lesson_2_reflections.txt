@@ -7,3 +7,15 @@ How is the staging area different from the working directory and the repository?
 
 	The working directory is the folder containing the files you may wish to work on. The repository is the place where you will want to put those files after you have finished the work. So the value of the staging area is that it provides a temporary area, to stage the files you have worked on, before you commit them to the repository; this give you the ability of commiting only particular files instead of all the files in the working directory.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Commit straight after each logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When I'm experimenting or fixing a bug. I could test code and checkout that new branch when all is fine, or revert to a previous branch.
+
+How do the diagrams help you visualize the branch structure?
+
+	Photons from my screen cause the generation of electrical signals in my brain.
+
