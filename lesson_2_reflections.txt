@@ -19,3 +19,18 @@ How do the diagrams help you visualize the branch structure?
 
 	Photons from my screen cause the generation of electrical signals in my brain.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	1. Interleved commits from both branches, and one remaining branch label worthy of deletion.
+	2. To help the tutor visualize a simple structureal concept.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros:
+
+		Saves time.
+
+	Cons:
+
+		Null.
+
